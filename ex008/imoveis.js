@@ -4,6 +4,7 @@ let option = ""
 
 do {
     option = prompt(
+        "Bem-vindo(a) ao Cadastro de Imóveis!\n" +
         property.length + " imóveis cadastrados." +
         "\n\n1. Salvar um novo imóvel" +
         "\n2. Mostrar todos os imóveis salvos" +
@@ -19,7 +20,7 @@ do {
             newProperty.bathrooms = prompt("Quantos banheiros possui o imóvel?")
             newProperty.garage = prompt("O imóvel possui garagem? (Sim/Não)")
             
-            const confirma = confirm(
+            const confirmation = confirm(
                 "Salvar este imóvel?\n" +
                 "\nProprietário: " + newProperty.owner +
                 "\nQuartos: " + newProperty.bedrooms +
@@ -27,7 +28,7 @@ do {
                 "\nPossui Garagem? " + newProperty.garage
             )
         
-            if (confirma) {
+            if (confirmation) {
             property.push(newProperty)
             }
             break
