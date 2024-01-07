@@ -32,7 +32,6 @@ do {
             }
             break
         case "2" :
-            let propertyInfo = ""
             for (let i = 0; i < property.length; i++) {
                 alert(
                     "Imóvel " + (i + 1) +
