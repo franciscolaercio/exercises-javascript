@@ -1,5 +1,3 @@
-let option = ""
-
 function areaTriangle() {
     const base = parseFloat(prompt("Informe a base do triângulo:"))
     const height = parseFloat(prompt("Informe a altura do triângulo:"))
