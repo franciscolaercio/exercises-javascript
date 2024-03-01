@@ -1,3 +1,5 @@
+import calculate from "./calculate.js"
+
 const input = document.getElementById('input')
 const resultInput = document.getElementById('result')
 
